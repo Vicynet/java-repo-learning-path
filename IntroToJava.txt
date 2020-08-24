@@ -1,0 +1,112 @@
+
+Java is a high level programming language and   is OOP
+We have differenet editions of Java, ME, EE, SE
+
+Java is one of the world's most widely used computer programming language.
+You'll find Java is almost all devices, mobile devices mainly.
+
+Airplane systems ATMs Automobile infotainment systems
+Blu-ray Disc™ players Cable boxes Copiers
+Credit cards CT scanners Desktop computers
+e-Readers Game consoles GPS navigation systems
+Home appliances Home security systems Light switches
+Lottery terminals Medical devices Mobile phones
+MRIs Parking payment stations Printers
+Transportation passes Robots Routers
+Smart cards Smart meters Smartpens
+Smartphones Tablets Televisions
+TV set-top boxes Thermostats Vehicle diagnostic systems
+
+
+A key goal of Java is to be able to write programs that will run on a great variety of
+computer systems and computer-controlled devices. This is sometimes called “write once,
+run anywhere.”
+
+Java Class Libraries
+You can create each class and method you need to form your Java programs. However,
+most Java programmers take advantage of the rich collections of existing classes and methods
+in the Java class libraries, also known as the Java APIs (Application Programming
+Interfaces).
+
+A TYPICAL  JAVA DEVELOPMENT ENVIRONMENT
+
+Five phases of creationa dn exceution of a Java application
+
+edit/create, compile, load, verify and excute
+
+1 Creating A Program: this involves using a file, text editor or an IDE
+The Java programs you write are regarded to as Source Code, which is saved with the
+.java extension, indicating that it is a Java program.
+
+Using just a Text Editor is quite different from Using an IDE.
+IDEs provide tools that support full software development processes, such as editing,
+debugging for logic or runtime errors and many more.
+
+2. Compiling A Program: you use javac(the Java compiler) to compile a program, space, then the name of the
+Java file with its complete qualification.
+If the program compiles, a file with the .class extension is produced by the compiler.
+
+The Java compiler translates Java source code into BYTECODEs that represent the tasks to execute
+in the execution phase.
+These Bytecodes are the exceuted by the JVM, a part of the JDK.
+
+A virtual Machinbe is a software application that simulates a computer but hides the underlying
+operating sytem and hardware from thew programs that interact with it.
+The JVM is the mosst widely used VM.
+
+The JVM makes JAva programs platform independent, write once, run anywhere.
+
+3. Loading a program into memory: the JVM places the program in memory to execute it,
+this known as Loading. The JVM's class loader takes the .class file containing the
+bytecode and transfer them to primary memory.
+
+4. Bytecode Verification: as the classes are loaded, the bytecode verifier examines the bytecodes to
+ensure that they are valid and do not violate Java's security restrictions.
+This security restrictions are enforced  to make sure that Java programs arriving over
+the network do not damage files on your system.
+
+5. Execution: The JVM executes the program's bytecodes, and therefore performing actions or instructions
+specified by the program. JAva is somewhat HYbrid, as the JVM was just an interpreter,
+ but uses it combined with JIT compilation.
+In this process the JVM analyzes the bytecodes as they are interpreted, searching for hotspots(parts
+of the program that exceutes more frequently). When the JVM encounters these compiled parts again, the faster machine 
+laanguage code exxecutes.
+
+For this reason, Java programs are sai to undergo two different compilation phases,
+First of which the source code is translated into bytecodes for portability across 
+different platformsa and second during execution, the bytecodes are translated into machine language for final execution
+
+My goal is to give you a headway into Java programming in the easiest
+possible way that I can.
+
+Specific concept to know about any Java program, of which some applies to
+all programming language.
+
+Package, public, colon, import, void, object, class, @Test, constructor, method, 
+CamelCase, variable declaration, variable, dot, object allocation
+
+Package: is like a file structure, helps to organize different files of your program
+Import: to simplify programming, every program file will uses existing existing codes
+follows directly after aa package name, you may import specific file or all files
+Class: a simple program can easily consist of thousands of functions. A class is a unit
+of a program file. Should be a noun. A template, blueprint
+Method: A method can be said to be a child of a class, the are units of code that do something.
+Can be called a function interchangeably.
+Variable: a placeholder, a container of a value or values. Instance, Static, Local, Parameter, Argument
+Public: access modifier
+Objects: 
+Constructor: objects are created through a constructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
